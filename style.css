@@ -1,0 +1,140 @@
+html {
+   width: 100%;
+   margin:0;
+   padding: 0;
+   background-image: url("b.jpg");
+
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+body{
+    display: flex;
+    margin:0;
+    padding: 0;
+    height: 100%;
+
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+  
+#content{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+.header{
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #2b2422f0;
+    align-items: center;
+    justify-content: center;
+}
+.header-top{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.header-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+
+
+    
+}
+
+.btn-defualt{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 0.7rem;
+}
+
+button:hover{
+    color: #aec43e;
+}
+
+
+
+.icon{
+    height:5rem ;
+    aspect-ratio: 1;
+    filter: invert(90%) sepia(14%) saturate(1934%) hue-rotate(15deg) brightness(84%) contrast(89%);
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 0;;
+
+}
+
+.img-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+   
+    height:45em;
+    border-radius: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    align-self: flex-start;
+    border-radius: 20px;
+    background-color: #2b2422;
+    height: 20rem;
+    width: 40rem;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+
+.contact-not-visible{
+    display: none;
+}
+
+.contact-icon{
+    height: 24px;
+    aspect-ratio: 1;
+    filter: invert(90%) sepia(14%) saturate(1934%) hue-rotate(15deg) brightness(84%) contrast(89%);
+}
+
+.line{
+    display: flex;
+    align-items:center ;
+    gap:1rem;
+}
+
+.active{
+    color:#aec43e;
+    border-bottom: #aec43e;
+    border-width: 0 0 0.2rem;
+    border-style: solid;
+}
+
